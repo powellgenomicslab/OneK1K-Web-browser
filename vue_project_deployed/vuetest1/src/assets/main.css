@@ -1,0 +1,303 @@
+/*================================================
+ ****************Basic style**********************
+ ================================================*/
+ body,*,*:before,*:after {
+ 	box-sizing:border-box;
+ }
+
+ body {
+ 	background-color: #e5e5e5;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-weight: 300;
+ 	line-height:1.5em;
+
+ }
+
+h1{
+	font-size:2.0em;
+	line-height:1em;
+
+}
+h2{
+	font-size:1.4em;
+	line-height:1em;
+
+}
+
+a, a:visited{
+	color: inherit;  /*make the link not change color after click*/
+	text-decoration:none;
+}
+
+em{
+	font-weight: bold;
+}
+small{
+	font-size: 0.8em;
+}
+
+
+table.center-all td,th{
+    text-align :center;
+}
+
+
+table {
+  
+  width: 100%;
+}
+
+div.table-height {
+    position: relative;
+    min-height: 1000px;
+}
+
+.fixed-width{
+    width:1080px;
+    margin: 0 auto; /*effective way to center block level element */
+    padding-top:2.5em;
+
+}
+
+a:hover {
+    background-color: #1690c9;
+}
+
+
+
+  
+
+
+
+
+
+
+
+.clearfix:before,
+.clearfix:after {
+	content:" ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+
+}
+
+
+
+
+
+
+
+
+
+/*================================================
+ ****************Layout style ********************
+ ================================================*/
+.l-pad{
+	padding-top:1.5em;
+    padding-bottom:1.5em;
+}
+
+
+
+/*.l-sidebar{
+	this was 250px in tutorial
+	width:250px;
+}
+*/
+/*
+.l-content-constrained{
+
+
+}
+    @media (min-width: 700px) {
+        .l-content-constrained{
+        	this was 270px in tutorial
+            padding-left: 250px ;
+              padding-right:250px;
+        }
+    }*/
+
+
+
+
+
+ /*================================================
+ **********Modular and reusable style **************
+ ================================================*/
+ .cf {
+    overflow: hidden;
+ }
+
+
+
+ .logo {
+    font-family: "Stoke", serif;
+    }
+
+    .logo h1 {
+        display: inline-block;
+        margin-right: 0.5em;
+    }
+
+
+.topbar {
+    background-color: #1aa1e1;
+}
+
+
+
+    .topbar-style {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        color: #fff;
+        background-color: #1aa1e1;
+        display: block;
+        width:1080px;
+        margin: 0 auto;
+            }
+        .topbar-style a {
+            font-size: 1.5em;
+            margin-right: 4em;
+        }
+
+.table_search_bar {
+    display:block;
+    position:absolute;
+}
+.celltype_box{
+    display:inline;
+}
+.upload_file{
+    float: right;
+}
+
+/*.search-bar {
+    display:none;
+  position: absolute;
+    z-index: 100;
+    padding: 1em 1em;
+
+
+    }
+
+    @media (min-width: 700px){
+        .search-bar {display:block;}
+    }
+    .search-bar fieldset {
+    	background-color: #eee;
+    	border: 1px solid ;
+    	border-color: #A9A9A9;
+        color: #444;
+        padding-left: 1em;
+    	padding-right: 1em;
+    	padding-top: 1em;
+    	padding-bottom: 1em;
+    }
+
+    .search-bar label {
+    	font-size: 1em;
+    	line-height: 1.5em;
+    }
+
+    .search-bar input {
+    	line-height: 1.5em;
+    	margin-bottom:1em;
+    }*/
+
+
+.homepage-p {
+	padding-top:1.5em;
+	display:inline-block;
+}
+
+.table-position {
+    position:relative;
+}
+
+
+.celltype-wrap{
+  position: relative;
+    padding-right:0.5em;
+  display: inline-block;
+  margin-left:0;
+  margin-bottom:1em;
+  color: #404040;
+  
+}
+
+
+
+.dataTables_filter {
+    display: inline;
+    float: left !important;
+}
+
+.dataTables_filter input{
+    width: 145px;
+}
+
+.button-wrap{
+    padding-bottom:1em;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.button {
+    background-color: #1aa1e1;
+    padding: 2px 6px 2px 6px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+.footer{
+    color: #9b9b9b;
+    font-size:1rem;
+    height:70px;
+}
+
+.footer .copyright {
+    padding: 1em 1em;
+
+    float: left;
+}
+
+.footer .credits{
+    padding: 1em 1em;
+
+    float: right;
+}
+
+.footer-content{
+    padding:1em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
