@@ -120,6 +120,11 @@ API and some parameters need to be changed. You can compare the differences betw
 Go into chrome and type http://10.214.132.61:8181/
 
 
+# Stop firewall protection on the server
+
+Sometimes firewall protection will be established, to fix this. Type in the command: service firewalld stop
+
+
 
 
 
