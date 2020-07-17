@@ -4,11 +4,13 @@ Ran Zhang
 
 /data/eQTL/: stores the whole eQTL dataset
 
+/data/eQTL_sig/: stores the eQTL with significant FDR, this is filtered from the whole eQTL dataset.
+
 /data/Samples_for_FrontEnd: stores the expression dataset (Files with name …_expressions.tsv)
 
 /vue_project_local/: scripts that allow browser running locally
 
-/ vue_project_deployed/: for packaging and deploying, paths are changed
+/vue_project_deployed/: for packaging and deploying, paths are changed
 
 /website_deployment/: to be uploaded to the server
 
