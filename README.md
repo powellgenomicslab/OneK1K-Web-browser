@@ -105,7 +105,7 @@ API and some parameters need to be changed. You can compare the differences betw
 
 3.	Go into the vue_project_deployed . Open vuetest1 and demon using IDEA. 
 
-4.	In the vuetest1 project terminal, run command: npm run build. After the c≠ommand finishes, a new folder called dist will appear.
+4.	In the vuetest1 project terminal, run command: npm run build. After the command finishes, a new folder called dist will appear.
 
 5.	Copy all five files in the dist folder and paste into website_deployment folder and /vue_project_deployed/demo/src/main/resources/static/ folder
 
