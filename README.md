@@ -132,3 +132,20 @@ Sometimes firewall protection will be established, to fix this. Type in the comm
 
 
  
+
+## Anne's Notes
+To run locally:
+
+1. Run backend java app using Maven-built JAR file.
+
+```bash
+mvn clean install
+java -jar target/demo-0.0.1-SNAPSHOT.jar
+```
+
+2. Launch front end using node.js.
+
+```bash
+npm install
+npm run serve
+```
