@@ -127,14 +127,8 @@ Go into chrome and type http://10.214.132.61:8181/
 Sometimes firewall protection will be established, to fix this. Type in the command: service firewalld stop
 
 
-
-
-
-
- 
-
 ## Anne's Notes
-To run locally:
+### Local startup
 
 1. Run backend java app using Maven-built JAR file.
 
@@ -148,4 +142,33 @@ java -jar target/demo-0.0.1-SNAPSHOT.jar
 ```bash
 npm install
 npm run serve
+```
+
+### Environment setup
+- Need to containerise Springboot app via Docker. 
+- 
+
+
+### Server startup
+1. Log into taza (10.214.132.61) via Garvan network.
+
+2. Enter sudo mode.
+
+```bash
+sudo su
+```
+
+3. Run back-end java app.
+
+```bash
+cd /home/ranzha/
+# TEMPORARY
+export PATH=/home/ranzha/jre1.8.0_251/bin:$PATH
+nohup java -jar /home/ranzha/website_deployment/demo-0.0.1-SNAPSHOT.jar &
+```
+
+4. Run npm
+```
+nohup npm install &
+nohup npm run serve &
 ```
