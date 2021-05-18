@@ -14,7 +14,7 @@ import org.json.JSONObject;
 @Controller
 @CrossOrigin(value = "http://localhost:8080", maxAge = 3600)
 public class Eqtl_table {
-    @RequestMapping(value ="/eqtlTable", method = RequestMethod.GET)
+    @RequestMapping(value ="/eqtl_Table", method = RequestMethod.GET)
     @ResponseBody
     public List<tablejson> tableinfo() throws JSONException {
         List<tablejson> list = new ArrayList<tablejson>();
